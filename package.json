@@ -1,0 +1,32 @@
+{
+  "name": "xiaofeiniu-api",
+  "version": "1.0.0",
+  "description": "火锅扫码点餐数据api系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmfuser/xiaofeiniu-api.git"
+  },
+  "keywords": [
+    "火锅",
+    "huoguo",
+    "扫码",
+    "点餐"
+  ],
+  "author": "zmf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zmfuser/xiaofeiniu-api/issues"
+  },
+  "homepage": "https://github.com/zmfuser/xiaofeiniu-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}
